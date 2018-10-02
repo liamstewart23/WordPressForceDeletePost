@@ -17,6 +17,9 @@ if (version_compare(get_bloginfo('version'), $requiredVersion, '<')) {
     You are currently running WordPress version <strong>" . get_bloginfo('version') . "</strong><br> This plugin requires <strong>" . $requiredVersion . "</strong> or greater");
 }
 
+/**
+ * Post List Styles
+ */
 function ls_fd_column_width()
 {
     echo '<style type="text/css">';
@@ -31,6 +34,7 @@ add_action('admin_head', 'ls_fd_column_width');
 /**
  * @param $defaults
  * @return mixed
+ * Adding column to post list.
  */
 function ls_fd_columns_head($defaults)
 {
@@ -41,6 +45,7 @@ function ls_fd_columns_head($defaults)
 /**
  * @param $column_name
  * @param $post_ID
+ * Adding column icon.
  */
 function ls_fd_columns_content($column_name, $post_ID)
 {
@@ -59,6 +64,7 @@ add_action('manage_posts_custom_column', 'ls_fd_columns_content', 10, 2);
 
 /**
  * @param string $link
+ * Delete Post
  */
 function ls_fd_force_delete($link = '<span class="dashicons dashicons-trash"></span>')
 {
@@ -73,6 +79,7 @@ function ls_fd_force_delete($link = '<span class="dashicons dashicons-trash"></s
 
 /**
  * @param $post_id
+ * Delete post attachments
  */
 function ls_fd_remove_attachment($post_id)
 {
