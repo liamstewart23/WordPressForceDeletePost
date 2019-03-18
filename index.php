@@ -41,7 +41,7 @@ function ls_fd_columns_content($column_name, $post_ID)
 {
     // If column exists
     if ($column_name === 'ls_fd_column') {
-        ls_fd_force_delete('<span class="dashicons dashicons-trash"></span>');
+        ls_fd_force_delete('<span class="dashicons dashicons-trash" style="color: #b90e0e;"></span>');
     }
 }
 
@@ -57,7 +57,7 @@ add_action('manage_posts_custom_column', 'ls_fd_columns_content', 10, 2);
  * @param string $link
  * Delete Post
  */
-function ls_fd_force_delete($link = '<span class="dashicons dashicons-trash"></span>')
+function ls_fd_force_delete($link = '<span class="dashicons dashicons-trash" style="color: #b90e0e;"></span>')
 {
     global $post;
     if (!current_user_can('edit_post', $post->ID)) {
