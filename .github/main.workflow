@@ -5,8 +5,8 @@ workflow "Deploy" {
 
 # Filter for tag
 action "tag" {
-    uses = "actions/bin/filter@master"
-    args = "tag"
+  uses = "actions/bin/filter@master"
+  args = "tag"
 }
 
 action "WordPress Plugin Deploy" {
