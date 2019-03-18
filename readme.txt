@@ -14,7 +14,7 @@ This plugin is lightweight - adding the ability for administrators to instantly 
 Activate and you're set!
 
 == Contribute ==
-Visit the GitHub repo <a href="https://github.com/liamstewart23/WordPressForceDeletePost" target="_blank">here</a>
+<a href="https://github.com/liamstewart23/WordPressForceDeletePost" target="_blank">Visit the GitHub repo here</a>
 
 == Changelog ==
  = 1.1.0 =
