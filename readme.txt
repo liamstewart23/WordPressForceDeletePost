@@ -14,7 +14,7 @@ This lightweight plugin adds the ability for administrators to instantly delete 
 Activate and you're set!
 
 == Contribute ==
-<a href="https://github.com/liamstewart23/WordPressForceDeletePost" target="_blank">Visit the GitHub repo here</a>
+<a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
 == Changelog ==
  = 1.1.1 =
