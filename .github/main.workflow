@@ -1,6 +1,6 @@
 workflow "Deploy" {
   resolves = ["WordPress Plugin Deploy"]
-  on = "push"
+  on = "release"
 }
 
 # Filter for tag
