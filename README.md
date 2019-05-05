@@ -7,3 +7,5 @@ This lightweight plugin adds the ability for administrators to instantly delete 
 Download: https://wordpress.org/plugins/force-delete-posts/
 
 ![alt text](https://github.com/liamstewart23/WordPressForceDeletePost/blob/master/.wordpress-org/banner-772x250.png?raw=true "Force Delete Posts in WordPress")
+
+Donate: https://www.patreon.com/liamstewart
