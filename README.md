@@ -8,4 +8,8 @@ Download: https://wordpress.org/plugins/force-delete-posts/
 
 ![alt text](https://github.com/liamstewart23/WordPressForceDeletePost/blob/master/.wordpress-org/banner-772x250.png?raw=true "Force Delete Posts in WordPress")
 
-Donate: https://www.patreon.com/liamstewart
+## Setup
+Install and go!
+
+## Donate
+https://www.patreon.com/liamstewart
