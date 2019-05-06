@@ -11,5 +11,5 @@ Download: https://wordpress.org/plugins/force-delete-posts/
 ## Setup
 Install and go!
 
-## Donate
+## Support
 https://www.patreon.com/liamstewart
