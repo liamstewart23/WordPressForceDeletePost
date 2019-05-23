@@ -9,3 +9,5 @@
 ## Reporting a Vulnerability
 
 Email hello[AT]liamstewart.ca to make a report.
+
+Subject Line: "WordPressForceDeletePost Vulnerability Report"
