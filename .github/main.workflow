@@ -12,9 +12,12 @@ action "tag" {
 action "WordPress Plugin Deploy" {
   needs = ["tag"]
   uses = "10up/actions-wordpress/dotorg-plugin-deploy@master"
-  secrets = ["SVN_PASSWORD", "SVN_USERNAME"]
+  secrets = [
+    "SVN_PASSWORD",
+    "SVN_USERNAME",
+    "GITHUB_TOKEN",
+  ]
   env = {
     SLUG = "force-delete-posts"
-    GITHUB_TOKEN = "d3ae5631af1ea8eb7ee0d3b30a0794bd3abe6b03"
   }
 }
