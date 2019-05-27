@@ -15,5 +15,6 @@ action "WordPress Plugin Deploy" {
   secrets = ["SVN_PASSWORD", "SVN_USERNAME"]
   env = {
     SLUG = "force-delete-posts"
+    GITHUB_TOKEN = "d3ae5631af1ea8eb7ee0d3b30a0794bd3abe6b03"
   }
 }
