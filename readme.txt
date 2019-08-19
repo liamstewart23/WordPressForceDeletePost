@@ -1,6 +1,6 @@
 === Force Delete Posts ===
 Contributors: gingeds
-Tags: force, delete, posts, post, trash
+Tags: force, delete, posts, post, trash, skip
 Requires at least: 4.0.0
 Tested up to: 5.2.2
 Requires PHP: 5.6
