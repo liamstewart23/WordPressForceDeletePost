@@ -2,7 +2,7 @@
 Contributors: gingeds
 Tags: force, delete, posts, post, trash
 Requires at least: 4.0.0
-Tested up to: 5.2.1
+Tested up to: 5.2.2
 Requires PHP: 5.6
 Stable tag: trunk
 
