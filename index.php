@@ -3,7 +3,7 @@
 Plugin Name: Force Delete Posts
 Plugin URI: https://github.com/liamstewart23/WordPressForceDeletePosts
 Description: Adds the ability for administrators to instantly delete posts by skipping the trash.
-Version: 1.1.1
+Version: 1.1.2
 Author: Liam Stewart
 Author URI: https://liamstewart.ca
 */
