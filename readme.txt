@@ -17,6 +17,8 @@ Activate and you're set!
 <a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
 == Changelog ==
+ = 1.1.2 =
+ * WordPress 5.3 support 
  = 1.1.1 =
  * Icon color change
  = 1.1.0 =
