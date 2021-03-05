@@ -5,7 +5,7 @@ on:
     - master
 jobs:
   trunk:
-    name: Push to trunk
+    name: Update readme.txt / plugin assets
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
