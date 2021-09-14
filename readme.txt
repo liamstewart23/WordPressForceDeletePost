@@ -8,14 +8,14 @@ Stable tag: trunk
 
 Deleting Posts has never been so fast!
 
-This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Icon to the Post List for Pages, Posts, and all Custom Post Types.
+This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Button to the Post List for Pages, Posts, and all Custom Post Types. Clicking the Force Delete Button will delete the item and skip the trash. 
 
 == Installation ==
 Activate and you're set!
 
 == Features ==
 - One Click delete posts & pages
-- Skip Trash
+- Instantly Skip Trash
 - Simple UI / UX
 
 == Contribute ==
