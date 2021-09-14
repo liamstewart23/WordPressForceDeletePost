@@ -14,7 +14,7 @@ This lightweight plugin adds the ability for administrators to instantly delete 
 Activate and you're set!
 
 == Features ==
-- One-click delete posts & pages
+- One Click delete posts & pages
 - Skip Trash
 - Simple UI / UX
 
