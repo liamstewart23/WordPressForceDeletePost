@@ -2,13 +2,13 @@
 Contributors: gingeds
 Tags: force, delete, posts, post, trash, skip
 Requires at least: 4.0.0
-Tested up to: 5.9
+Tested up to: 5.9.1
 Requires PHP: 5.6
 Stable tag: trunk
 
 Deleting Posts has never been so fast!
 
-This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Button to the Post List for Pages, Posts, and all Custom Post Types. Clicking the Force Delete Button will delete the item and skip the trash. 
+This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Button to the Post List for Pages, Posts, and all Custom Post Types. Clicking the Force Delete Button will delete the item instantly by skipping the trash. 
 
 == Installation ==
 Activate and you're set!
