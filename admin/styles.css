@@ -1,0 +1,10 @@
+.column-ls_fd_column {
+    text-align: center;
+    width: 60px !important;
+    overflow: hidden
+}
+
+.ls_fd_label {
+    justify-content: center;
+    display: flex;
+}

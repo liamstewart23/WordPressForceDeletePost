@@ -8,7 +8,7 @@ class forceDeletePosts
     public function __construct()
     {
         // Styles
-        add_action('admin_head', [$this, 'column_styles']);
+        add_action('admin_enqueue_scripts', [$this, 'plugin_styles']);
 
         // Add to Pages
         add_filter('manage_pages_columns', [$this, 'create_column_heading']);
@@ -22,15 +22,15 @@ class forceDeletePosts
         add_action('before_delete_post', [$this, 'delete_featured_image'], 10);
     }
 
-
     /**
      *
-     * Set Post List Styles
+     * Enqueue plugin stylesheet
      *
      */
-    public function column_styles(): void
+    public function plugin_styles(): void
     {
-        echo '<style>.column-ls_fd_column { text-align: center; width:60px !important; overflow:hidden }.ls_plfi_label {justify-content:center;display:flex;}</style>';
+        wp_register_style( 'ls_fd_admin_css',  plugin_dir_url( __FILE__ ) . 'styles.css', false, '1.0.0' );
+        wp_enqueue_style( 'ls_fd_admin_css' );
     }
 
     /**
@@ -41,9 +41,9 @@ class forceDeletePosts
      *
      * @return mixed
      */
-    function create_column_heading($defaults): mixed
+    public function create_column_heading($defaults): mixed
     {
-        $defaults['ls_fd_column'] = '<span class="ls_plfi_label">Force <br/> Delete</span>';
+        $defaults['ls_fd_column'] = '<span class="ls_fd_label">Force <br/> Delete</span>';
 
         return $defaults;
     }
