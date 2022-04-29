@@ -8,7 +8,7 @@ Stable tag: trunk
 
 Deleting Posts has never been so fast!
 
-This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Button to the Post List for Pages, Posts, and all Custom Post Types. Clicking the Force Delete Button will delete the item instantly by skipping the trash. 
+This lightweight plugin adds the ability for administrators to instantly delete posts by adding a Force Delete Button to the Post List for Pages, Posts, and all Custom Post Types. Clicking the Force Delete Button will delete the item instantly by skipping the trash.
 
 == Installation ==
 Activate and you're set!
@@ -22,8 +22,10 @@ Activate and you're set!
 <a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
 == Changelog ==
+ = 2.0.0 =
+ * Complete plugin rewrite to modernize the codebase
  = 1.1.2 =
- * WordPress 5.3 support 
+ * WordPress 5.3 support
  = 1.1.1 =
  * Icon color change
  = 1.1.0 =
