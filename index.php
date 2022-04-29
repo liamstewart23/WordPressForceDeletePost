@@ -8,6 +8,10 @@ Author: Liam Stewart
 Author URI: https://liamstewart.ca
 */
 
+if ( ! defined( 'WPINC' ) ) {
+    die;
+}
+
 /**
  * Post List Styles
  */
