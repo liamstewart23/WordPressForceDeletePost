@@ -43,7 +43,7 @@ class forceDeletePosts
      */
     public function create_column_heading($defaults): mixed
     {
-        $defaults['ls_fd_column'] = '<span class="ls_fd_label">Force <br/> Delete</span>';
+        $defaults['ls_fd_column'] = '<span class="ls_fd_label">Force Delete</span>';
 
         return $defaults;
     }
@@ -77,7 +77,7 @@ class forceDeletePosts
 
         $link = wp_nonce_url(get_admin_url().'post.php?action=delete&amp;post='.$post->ID,
             'delete-post_'.$post->ID);
-        echo "<a onclick=\"return confirm('Permanently delete this post?')\"  href=\"{$link}\"><span class=\"dashicons dashicons-trash\" style=\"color: #b90e0e;\"></span></a>";
+        echo "<a onclick=\"return confirm('Permanently delete this post?')\" href=\"{$link}\"><span class=\"dashicons dashicons-trash\"></span></a>";
     }
 
     /**

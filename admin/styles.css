@@ -1,10 +1,27 @@
 .column-ls_fd_column {
     text-align: center;
-    width: 60px !important;
-    overflow: hidden
+    width: 100px !important;
+    overflow: hidden;
 }
 
 .ls_fd_label {
     justify-content: center;
     display: flex;
+}
+
+.ls_fd_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.ls_fd_column a span {
+    color: #b90e0e;
+    transition: color .4s ease, transform .4s ease;
+}
+
+.ls_fd_column a span:hover, .ls_fd_column a span:focus {
+    color: darkred;
+    transform: scale(1.1);
 }
