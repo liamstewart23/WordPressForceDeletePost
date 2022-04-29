@@ -8,6 +8,7 @@ Author: Liam Stewart
 Author URI: https://liamstewart.ca
 */
 
+// If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
