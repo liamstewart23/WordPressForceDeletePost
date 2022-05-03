@@ -77,7 +77,9 @@ class forceDeletePosts
 
         $link = wp_nonce_url(get_admin_url().'post.php?action=delete&amp;post='.$post->ID,
             'delete-post_'.$post->ID);
-        echo "<a onclick=\"return confirm('Permanently delete this post?')\" href=\"{$link}\"><span class=\"dashicons dashicons-trash\"></span></a>";
+        $pt = get_post_type_object( get_post_type($post->ID) )->labels->singular_name;
+        $message = "Permanently delete this {$pt}?";
+        echo "<a onclick='return confirm(\"{$message}\")' href=\"{$link}\"><span class=\"dashicons dashicons-trash\"></span></a>";
     }
 
     /**

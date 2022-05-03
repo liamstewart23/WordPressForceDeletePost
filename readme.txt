@@ -2,7 +2,7 @@
 Contributors: gingeds
 Tags: force, delete, posts, post, trash, skip
 Requires at least: 4.0.0
-Tested up to: 5.9.1
+Tested up to: 5.9.3
 Requires PHP: 5.6
 Stable tag: trunk
 
@@ -22,6 +22,8 @@ Activate and you're set!
 <a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
 == Changelog ==
+ = 2.1.0 =
+ * Updated deletion confirmation message to include post type singular label
  = 2.0.0 =
  * Complete plugin rewrite to modernize the codebase
  = 1.1.2 =
