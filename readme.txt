@@ -22,6 +22,8 @@ Activate and you're set!
 <a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
 == Changelog ==
+ = 2.1.1 =
+ * Fixes issue with PHP <7.1
  = 2.1.0 =
  * Updated deletion confirmation message to include post type singular label
  = 2.0.0 =
