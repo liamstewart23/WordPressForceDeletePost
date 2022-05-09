@@ -23,11 +23,9 @@ class forceDeletePosts
     }
 
     /**
-     *
      * Enqueue plugin stylesheet
-     *
      */
-    public function plugin_styles(): void
+    public function plugin_styles()
     {
         wp_register_style( 'ls_fd_admin_css',  plugin_dir_url( __FILE__ ) . 'styles.css', false, '1.0.0' );
         wp_enqueue_style( 'ls_fd_admin_css' );
@@ -39,9 +37,8 @@ class forceDeletePosts
      *
      * @param $defaults
      *
-     * @return mixed
      */
-    public function create_column_heading($defaults): mixed
+    public function create_column_heading($defaults)
     {
         $defaults['ls_fd_column'] = '<span class="ls_fd_label">Force Delete</span>';
 
@@ -63,12 +60,9 @@ class forceDeletePosts
     }
 
     /**
-     *
      * Delete Post
-     *
-     * @return void
      */
-    public function delete_post(): void
+    public function delete_post()
     {
         global $post;
         if ( ! current_user_can('edit_post', $post->ID)) {
