@@ -18,6 +18,9 @@ Activate and you're set!
 - Instantly Skip Trash
 - Simple UI / UX
 
+== Found an issue? ==
+<a href="https://github.com/liamstewart23/WordPressForceDeletePost/issues">Click here to report an issue</a>
+
 == Contribute ==
 <a href="https://github.com/liamstewart23/WordPressForceDeletePost">Visit the GitHub repo here</a>
 
