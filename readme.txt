@@ -2,7 +2,7 @@
 Contributors: gingeds
 Tags: force, delete, posts, post, trash, skip
 Requires at least: 4.0.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
 Stable tag: trunk
 
