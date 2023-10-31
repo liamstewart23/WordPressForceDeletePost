@@ -13,6 +13,3 @@ Install and go!
 
 ## Support
 https://www.patreon.com/liamstewart
-
-## Deployments
-![Deploy to WordPress.org](https://github.com/liamstewart23/WordPressForceDeletePost/workflows/Deploy%20to%20WordPress.org/badge.svg)
