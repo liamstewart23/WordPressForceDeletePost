@@ -10,6 +10,3 @@ Download: https://wordpress.org/plugins/force-delete-posts/
 
 ## Setup
 Install and go!
-
-## Support
-https://www.patreon.com/liamstewart
